@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CAPTCHA</title>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  </head>
+  <body>
+    <div style="margin-top:50px;text-align:center;">
+      <form action="?" method="POST">
+        <div class="g-recaptcha" data-sitekey="6LcvXDMrAAAAAHJ2o05hNyr-RljdqbwgCOTuO7ki"></div>
+        <br/>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </body>
+</html>
